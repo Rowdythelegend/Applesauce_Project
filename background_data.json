@@ -1,0 +1,28 @@
+{
+  "student_name": "Kristel Saungweme",
+  "grade": 5,
+  "class": "V",
+  "school": "Dominican Convent Primary School",
+  "academic_performance": {
+    "English": { "grade": "B", "percentage": 73, "class_avg": 72, "zimsec_units": 3, "position": "15/26" },
+    "Mathematics": { "grade": "D", "percentage": 58, "class_avg": 54, "zimsec_units": 5, "position": "10/26" },
+    "Ndebele": { "grade": "D", "percentage": 58, "class_avg": 68, "zimsec_units": 5, "position": "23/26" },
+    "Science and Technology": { "grade": "C", "percentage": 68, "class_avg": 71, "zimsec_units": 4, "position": "17/26" },
+    "Social Science": { "grade": "A", "percentage": 80, "class_avg": 81, "zimsec_units": 2, "position": "15/26" },
+    "ICT": { "grade": "A*", "percentage": 100, "class_avg": 91, "zimsec_units": 1, "position": "1/26" },
+    "Performing Arts": { "grade": "B", "percentage": 77, "class_avg": 75, "zimsec_units": 3, "position": "14/26" },
+    "Physical Education": { "grade": "A", "percentage": 87, "class_avg": 84, "zimsec_units": 2, "position": "10/26" }
+  },
+  "teacher_comments": [
+    "Kristel has the potential for good work, but she needs to stay focused. She is easily distracted.",
+    "A steady progress. She is encouraged to work on time management skills.",
+    "Lwisa ukufunda iziqa zamabala ukuze ubale njalo uzwisise ulimi.",
+    "Satisfactory effort. She can improve next term if she practice tables for faster recall."
+  ],
+  "credentials": {
+    "cambridge_resources": {
+      "username": "nslegend8@gmail.com",
+      "password": "KrisKrossApplesauce15"
+    }
+  }
+}
