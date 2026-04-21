@@ -1,0 +1,8 @@
+{
+  "name": "Kristel's Genius Hub with The Clairvoyant",
+  "description": "A personalized AI tutor app for Kristel (Applesauce), a Grade 5 V student at Dominican Convent, featuring 'The Clairvoyant' to facilitate a 'Genius Learning Workflow' with interactive notes, stories, audio overviews, quizzes, and live audio/video chat.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

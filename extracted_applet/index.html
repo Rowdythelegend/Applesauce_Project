@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristel's Genius Hub with The Clairvoyant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* Animation for The Clairvoyant's messages */
+      @keyframes clairvoyantMessageAnimation {
+        from {
+          opacity: 0;
+          transform: translateY(15px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-clairvoyant-message {
+        animation: clairvoyantMessageAnimation 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200 min-h-screen flex items-center justify-center p-4">
+    <div id="root" class="w-full max-w-4xl h-[calc(100vh-2rem)] bg-white rounded-lg shadow-xl flex flex-col overflow-hidden"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
