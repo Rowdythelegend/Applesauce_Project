@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kristel\'s Genius Hub</string>
+    <string name="title_activity_main">Kristel\'s Genius Hub</string>
+    <string name="package_name">com.bambanatech.applesauce</string>
+    <string name="custom_url_scheme">com.bambanatech.applesauce</string>
+</resources>
