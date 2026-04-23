@@ -11,10 +11,11 @@ import {
 import { blobToBase64 } from '../utils/audioUtils';
 
 export async function ensureApiKeyAndInstantiateGoogleGenAI() {
-  if (!process.env.API_KEY) {
+  const apiKey = (import.meta as any).env?.VITE_API_KEY || (process as any).env?.API_KEY;
+  if (!apiKey) {
     throw new Error("API Key is not configured.");
   }
-  return new GoogleGenAI({ apiKey: process.env.API_KEY });
+  return new GoogleGenAI({ apiKey });
 }
 
 export async function sendChatMessage(userMessage: string, chatHistory: ChatMessage[]): Promise<string> {
