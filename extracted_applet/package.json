@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
     "@google/genai": "^1.29.0",
     "framer-motion": "^10.12.16",
     "lucide-react": "^0.263.1",
@@ -16,9 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@capacitor/android": "^8.3.1",
     "@capacitor/cli": "^8.3.1",
-    "@capacitor/core": "^8.3.1",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.0.0",
